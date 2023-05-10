@@ -1,69 +1,172 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#a6a6a6"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/LoginPunya"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="LOGIN"
-    android:layout_marginTop="150dp"
-    android:layout_centerHorizontal="true"
-    android:textSize="28sp"
-    android:textStyle="bold"
-    android:textColor="@color/white"
-    app:layout_constraintBottom_toBottomOf="parent"
-    app:layout_constraintLeft_toLeftOf="parent"
-    app:layout_constraintRight_toRightOf="parent"
-    app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/etUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/LoginPunya"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="65dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="#ffffff"
-        android:drawableStart="@drawable/baseline_person_24"
-        android:drawablePadding="20dp"
-        android:hint="Username"
-        android:padding="28dp"
-        android:textColor="#ffffff"
-        android:textColorHint="@color/black" />
-
-    <EditText
-        android:id="@+id/etPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/etUsername"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="20dp"
-        android:background="#ffffff"
-        android:drawableStart="@drawable/baseline_lock_24"
-        android:drawablePadding="20dp"
-        android:hint="Password"
-        android:padding="28dp"
-        android:textColor="#ffffff"
-        android:textColorHint="@color/black" />
-
-    <Button
-        android:id="@+id/btnLogin"
+    <LinearLayout
+        android:id="@+id/ll1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/etPassword"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="66dp"
-        android:backgroundTint="@color/cardview_dark_background"
-        android:text="LOGIN" />
-</RelativeLayout>
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTRASI"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_gravity="center"
+            android:textSize="25dp"/>
+
+        <TextView
+            android:id="@+id/textView_nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="Nama Lengkap"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTop="parent" />
+
+        <EditText
+            android:id="@+id/nama"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Masukkan Nama Lengkap"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="52dp" />
+
+        <TextView
+            android:id="@+id/textView_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Email"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="93dp" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            android:hint="Masukkan Email"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <TextView
+            android:id="@+id/textView_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Password"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="177dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Masukkan Password"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="204dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="262dp">
+
+            <TextView
+                android:id="@+id/textView_radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <RadioButton
+                android:id="@+id/rb_L"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laki-laki" />
+
+            <RadioButton
+                android:id="@+id/rb_P"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perempuan" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView_usia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Usia"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/index"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_marginHorizontal="200dp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="350dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="424dp" />
+
+        <TextView
+            android:id="@+id/textView_alamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Alamat"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="460dp" />
+
+        <EditText
+            android:id="@+id/alamat"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:ems="10"
+            android:inputType="textPostalAddress"
+            android:hint="Masukkan Alamat"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="204dp" />
+
+        <Button
+            android:id="@+id/button_Regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REGISTER"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
