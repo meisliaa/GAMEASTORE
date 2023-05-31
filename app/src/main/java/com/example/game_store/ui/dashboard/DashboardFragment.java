@@ -1,5 +1,6 @@
 package com.example.game_store.ui.dashboard;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,8 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.game_store.DetailActivity;
+import com.example.game_store.LoginActivity;
 import com.example.game_store.databinding.FragmentDashboardBinding;
 
 public class DashboardFragment extends Fragment {

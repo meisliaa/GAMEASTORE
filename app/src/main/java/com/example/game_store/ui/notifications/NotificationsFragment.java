@@ -1,5 +1,6 @@
 package com.example.game_store.ui.notifications;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.lifecycle.ViewModelProvider;
 
+import com.example.game_store.LoginActivity;
 import com.example.game_store.databinding.FragmentNotificationsBinding;
 
 public class NotificationsFragment extends Fragment {
@@ -33,5 +35,10 @@ public class NotificationsFragment extends Fragment {
     public void onDestroyView() {
         super.onDestroyView();
         binding = null;
+    }
+
+    public void login(View view) {
+        Intent login = new Intent(getActivity(), LoginActivity.class);
+        startActivity(login);
     }
 }

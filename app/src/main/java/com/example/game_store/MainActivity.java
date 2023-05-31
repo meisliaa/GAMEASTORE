@@ -1,6 +1,8 @@
 package com.example.game_store;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -32,6 +34,16 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_activity_main);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(binding.navView, navController);
+    }
+
+    public void detail(View view) {
+        Intent detail = new Intent(com.example.game_store.MainActivity.this, DetailActivity.class);
+        startActivity(detail);
+    }
+
+    public void login(View view) {
+        Intent login = new Intent(com.example.game_store.MainActivity.this, LoginActivity.class);
+        startActivity(login);
     }
 
 }
