@@ -36,14 +36,19 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(binding.navView, navController);
     }
 
-    public void detail(View view) {
-        Intent detail = new Intent(com.example.game_store.MainActivity.this, DetailActivity.class);
-        startActivity(detail);
+    public void input(View view) {
+        Intent input = new Intent(com.example.game_store.MainActivity.this, GameInputActivity.class);
+        startActivity(input);
     }
 
     public void login(View view) {
         Intent login = new Intent(com.example.game_store.MainActivity.this, LoginActivity.class);
         startActivity(login);
+    }
+
+    public void list(View view) {
+        Intent list = new Intent(com.example.game_store.MainActivity.this, GameListActivity.class);
+        startActivity(list);
     }
 
 }
