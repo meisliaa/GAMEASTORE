@@ -2,11 +2,12 @@ package com.example.game_store;
 
 public class konfigurasi {
     //PENTING! JANGAN LUPA GANTI IP SESUAI DENGAN IP KOMPUTER DIMANA DATA PHP BERADA
-      public static final String URL_ADD="http://192.168.1.9/Android/pegawai/tambahGame.php";
-      public static final String URL_GET_ALL = "https://5367-114-4-218-244.ngrok-free.app/Android/game/tampilSemuaGame.php";
-      public static final String URL_GET_EMP = "http://192.168.1.9/Android/pegawai/tampilGame.php?id=";
-      public static final String URL_UPDATE_EMP = "http://192.168.1.9/Android/pegawai/updateGame.php";
-      public static final String URL_DELETE_EMP = "http://192.168.1.9/Android/pegawai/hapusGame.php?id=";
+    public static final String URL_ADD = "https://a040-114-4-218-244.ngrok-free.app/Android/game/tambahGame.php";
+    public static final String URL_GET_ALL = "https://a040-114-4-218-244.ngrok-free.app/Android/game/tampilSemuaGame.php";
+    public static final String URL_GET_EMP = "https://a040-114-4-218-244.ngrok-free.app/Android/game/tampilGame.php";
+    public static final String URL_UPDATE_EMP = "https://a040-114-4-218-244.ngrok-free.app/Android/game/updateGame.php";
+    public static final String URL_DELETE_EMP = "https://a040-114-4-218-244.ngrok-free.app/Android/game/hapusGame.php";
+
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_ID = "id";

@@ -16,8 +16,11 @@ public class GameInputActivity extends AppCompatActivity implements View.OnClick
 
     //Dibawah ini merupakan perintah untuk mendefinikan View
     private EditText editTextName;
-    private EditText editTextDesq;
-    private EditText editTextSal;
+    private EditText editTextBig;
+    private EditText editTextUnit;
+    private EditText editTextRate;
+    private EditText editTextPub;
+    private EditText editTextDesk;
 
     private Button buttonAdd;
     private Button buttonView;
@@ -29,8 +32,11 @@ public class GameInputActivity extends AppCompatActivity implements View.OnClick
 
         //Inisialisasi dari View
         editTextName = (EditText) findViewById(R.id.editTextName);
-        editTextDesq = (EditText) findViewById(R.id.editTextDesq);
-        editTextSal = (EditText) findViewById(R.id.editTextSalary);
+        editTextBig = (EditText) findViewById(R.id.editTextBig);
+        editTextUnit = (EditText) findViewById(R.id.editTextUnit);
+        editTextRate = (EditText) findViewById(R.id.editTextRate);
+        editTextPub = (EditText) findViewById(R.id.editTextPub);
+        editTextDesk = (EditText) findViewById(R.id.editTextDesk);
 
         buttonAdd = (Button) findViewById(R.id.buttonAdd);
         buttonView = (Button) findViewById(R.id.buttonView);
@@ -45,11 +51,13 @@ public class GameInputActivity extends AppCompatActivity implements View.OnClick
     private void addGame(){
 
         final String name = editTextName.getText().toString().trim();
-        final String desq = editTextDesq.getText().toString().trim();
-        final String sal = editTextSal.getText().toString().trim();
+        final String big = editTextBig.getText().toString().trim();
+        final String unit = editTextUnit.getText().toString().trim();
+        final String rate = editTextRate.getText().toString().trim();
+        final String pub = editTextPub.getText().toString().trim();
+        final String desk = editTextDesk.getText().toString().trim();
 
         class AddGame extends AsyncTask<Void,Void,String>{
-
             ProgressDialog loading;
 
             @Override
@@ -68,9 +76,12 @@ public class GameInputActivity extends AppCompatActivity implements View.OnClick
             @Override
             protected String doInBackground(Void... v) {
                 HashMap<String,String> params = new HashMap<>();
-                params.put(konfigurasi.KEY_EMP_NAME,name);
-                params.put(konfigurasi.KEY_EMP_PUB,desq);
-                params.put(konfigurasi.KEY_EMP_DESK,sal);
+                params.put(konfigurasi.KEY_EMP_NAME, name);
+                params.put(konfigurasi.KEY_EMP_BIG, big);
+                params.put(konfigurasi.KEY_EMP_UNIT, unit);
+                params.put(konfigurasi.KEY_EMP_RATING, rate);
+                params.put(konfigurasi.KEY_EMP_PUB, pub);
+                params.put(konfigurasi.KEY_EMP_DESK,desk);
 
                 RequestHandler rh = new RequestHandler();
                 String res = rh.sendPostRequest(konfigurasi.URL_ADD, params);

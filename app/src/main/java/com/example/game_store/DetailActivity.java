@@ -25,8 +25,11 @@ import java.util.HashMap;
 public class DetailActivity extends AppCompatActivity implements View.OnClickListener{
     private TextView editTextId;
     private EditText editTextName;
-    private EditText editTextDesq;
-    private EditText editTextSalary;
+    private EditText editTextBig;
+    private EditText editTextUnit;
+    private EditText editTextRate;
+    private EditText editTextPub;
+    private EditText editTextDesk;
 
     private Button buttonUpdate;
     private Button buttonDelete;
@@ -44,8 +47,11 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
         editTextId = (TextView) findViewById(R.id.editTextId);
         editTextName = (EditText) findViewById(R.id.titleTxt);
-        editTextDesq = (EditText) findViewById(R.id.ratingTxt);
-        editTextSalary = (EditText) findViewById(R.id.publisherTxt);
+        editTextBig = (EditText) findViewById(R.id.sizeTxt);
+        editTextRate = (EditText) findViewById(R.id.ratingTxt);
+        editTextPub = (EditText) findViewById(R.id.publisherTxt);
+        editTextDesk = (EditText) findViewById(R.id.descriptionTxt);
+
 
         buttonUpdate = (Button) findViewById(R.id.buttonUpdate);
         buttonDelete = (Button) findViewById(R.id.buttonDelete);
@@ -91,12 +97,18 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             JSONArray result = jsonObject.getJSONArray(konfigurasi.TAG_JSON_ARRAY);
             JSONObject c = result.getJSONObject(0);
             String name = c.getString(konfigurasi.TAG_NAME);
-            String desq = c.getString(konfigurasi.TAG_RATING);
-            String sal = c.getString(konfigurasi.TAG_PUB);
+            String big = c.getString(konfigurasi.TAG_BIG);
+            String unit = c.getString(konfigurasi.TAG_UNIT);
+            String rate = c.getString(konfigurasi.TAG_RATING);
+            String pub = c.getString(konfigurasi.TAG_PUB);
+            String desk = c.getString(konfigurasi.TAG_DESK);
 
             editTextName.setText(name);
-            editTextDesq.setText(desq);
-            editTextSalary.setText(sal);
+            editTextBig.setText(big);
+            editTextUnit.setText(unit);
+            editTextRate.setText(rate);
+            editTextPub.setText(pub);
+            editTextDesk.setText(desk);
 
         } catch (JSONException e) {
             e.printStackTrace();
@@ -106,15 +118,18 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
     private void updateEmployee(){
         final String name = editTextName.getText().toString().trim();
-        final String desq = editTextDesq.getText().toString().trim();
-        final String salary = editTextSalary.getText().toString().trim();
+        final String big = editTextBig.getText().toString().trim();
+        final String unit = editTextUnit.getText().toString().trim();
+        final String rate = editTextRate.getText().toString().trim();
+        final String pub = editTextPub.getText().toString().trim();
+        final String desk = editTextDesk.getText().toString().trim();
 
         class UpdateEmployee extends AsyncTask<Void,Void,String>{
             ProgressDialog loading;
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-                loading = ProgressDialog.show(DetailActivity.this,"Updating...","Wait...",false,false);
+                loading = ProgressDialog.show(DetailActivity.this,"Updating...","Tunggu...",false,false);
             }
 
             @Override
@@ -127,10 +142,13 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             @Override
             protected String doInBackground(Void... params) {
                 HashMap<String,String> hashMap = new HashMap<>();
-                hashMap.put(konfigurasi.KEY_EMP_ID,id);
+                hashMap.put(konfigurasi.KEY_EMP_ID, id);
                 hashMap.put(konfigurasi.KEY_EMP_NAME,name);
-                hashMap.put(konfigurasi.KEY_EMP_PUB,desq);
-                hashMap.put(konfigurasi.KEY_EMP_DESK,salary);
+                hashMap.put(konfigurasi.KEY_EMP_BIG, big);
+                hashMap.put(konfigurasi.KEY_EMP_UNIT, unit);
+                hashMap.put(konfigurasi.KEY_EMP_RATING, rate);
+                hashMap.put(konfigurasi.KEY_EMP_PUB, pub);
+                hashMap.put(konfigurasi.KEY_EMP_DESK, desk);
 
                 RequestHandler rh = new RequestHandler();
 
@@ -175,7 +193,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
 
     private void confirmDeleteEmployee(){
         AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(this);
-        alertDialogBuilder.setMessage("Apakah Kamu Yakin Ingin Menghapus Pegawai ini?");
+        alertDialogBuilder.setMessage("Apakah Kamu Yakin Ingin Menghapus Game ini?");
 
         alertDialogBuilder.setPositiveButton("Ya",
                 new DialogInterface.OnClickListener() {

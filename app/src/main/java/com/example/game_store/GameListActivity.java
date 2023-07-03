@@ -47,9 +47,9 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
                 String pub = jo.getString(konfigurasi.TAG_PUB);
 
                 HashMap<String,String> employees = new HashMap<>();
-                employees.put(konfigurasi.TAG_ID,id);
-                employees.put(konfigurasi.TAG_NAME,name);
-                employees.put(konfigurasi.TAG_PUB,pub);
+                employees.put(konfigurasi.TAG_ID, id);
+                employees.put(konfigurasi.TAG_NAME, name);
+                employees.put(konfigurasi.TAG_PUB, pub);
                 list.add(employees);
             }
 
@@ -72,7 +72,7 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
             @Override
             protected void onPreExecute() {
                 super.onPreExecute();
-                loading = ProgressDialog.show(GameListActivity.this,"Mengambil Data","Mohon Tunggu...",false,false);
+                loading = ProgressDialog.show(GameListActivity.this,"Mengambil Data","Tunggu...",false,false);
             }
 
             @Override
@@ -99,7 +99,7 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
         Intent intent = new Intent(this, DetailActivity.class);
         HashMap<String,String> map =(HashMap)parent.getItemAtPosition(position);
         String empId = map.get(konfigurasi.TAG_ID).toString();
-        intent.putExtra(konfigurasi.GAME_ID,empId);
+        intent.putExtra(konfigurasi.GAME_ID, empId);
         startActivity(intent);
     }
 }
