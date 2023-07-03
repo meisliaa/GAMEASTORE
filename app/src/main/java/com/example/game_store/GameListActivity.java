@@ -43,11 +43,13 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
             for(int i = 0; i<result.length(); i++){
                 JSONObject jo = result.getJSONObject(i);
                 String id = jo.getString(konfigurasi.TAG_ID);
-                String name = jo.getString(konfigurasi.TAG_NAMA);
+                String name = jo.getString(konfigurasi.TAG_NAME);
+                String pub = jo.getString(konfigurasi.TAG_PUB);
 
                 HashMap<String,String> employees = new HashMap<>();
                 employees.put(konfigurasi.TAG_ID,id);
-                employees.put(konfigurasi.TAG_NAMA,name);
+                employees.put(konfigurasi.TAG_NAME,name);
+                employees.put(konfigurasi.TAG_PUB,pub);
                 list.add(employees);
             }
 
@@ -57,8 +59,8 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
 
         ListAdapter adapter = new SimpleAdapter(
                 GameListActivity.this, list, R.layout.list_item_game,
-                new String[]{konfigurasi.TAG_ID,konfigurasi.TAG_NAMA},
-                new int[]{R.id.id, R.id.nama});
+                new String[]{konfigurasi.TAG_ID,konfigurasi.TAG_NAME, konfigurasi.TAG_PUB},
+                new int[]{R.id.id, R.id.name, R.id.pub});
 
         listView.setAdapter(adapter);
     }

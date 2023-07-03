@@ -90,9 +90,9 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             JSONObject jsonObject = new JSONObject(json);
             JSONArray result = jsonObject.getJSONArray(konfigurasi.TAG_JSON_ARRAY);
             JSONObject c = result.getJSONObject(0);
-            String name = c.getString(konfigurasi.TAG_NAMA);
+            String name = c.getString(konfigurasi.TAG_NAME);
             String desq = c.getString(konfigurasi.TAG_RATING);
-            String sal = c.getString(konfigurasi.TAG_PUBLISHER);
+            String sal = c.getString(konfigurasi.TAG_PUB);
 
             editTextName.setText(name);
             editTextDesq.setText(desq);
@@ -128,9 +128,9 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
             protected String doInBackground(Void... params) {
                 HashMap<String,String> hashMap = new HashMap<>();
                 hashMap.put(konfigurasi.KEY_EMP_ID,id);
-                hashMap.put(konfigurasi.KEY_EMP_NAMA,name);
-                hashMap.put(konfigurasi.KEY_EMP_PUBLISHER,desq);
-                hashMap.put(konfigurasi.KEY_EMP_DESKRIPSI,salary);
+                hashMap.put(konfigurasi.KEY_EMP_NAME,name);
+                hashMap.put(konfigurasi.KEY_EMP_PUB,desq);
+                hashMap.put(konfigurasi.KEY_EMP_DESK,salary);
 
                 RequestHandler rh = new RequestHandler();
 

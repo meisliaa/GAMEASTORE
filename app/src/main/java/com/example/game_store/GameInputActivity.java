@@ -68,9 +68,9 @@ public class GameInputActivity extends AppCompatActivity implements View.OnClick
             @Override
             protected String doInBackground(Void... v) {
                 HashMap<String,String> params = new HashMap<>();
-                params.put(konfigurasi.KEY_EMP_NAMA,name);
-                params.put(konfigurasi.KEY_EMP_PUBLISHER,desq);
-                params.put(konfigurasi.KEY_EMP_DESKRIPSI,sal);
+                params.put(konfigurasi.KEY_EMP_NAME,name);
+                params.put(konfigurasi.KEY_EMP_PUB,desq);
+                params.put(konfigurasi.KEY_EMP_DESK,sal);
 
                 RequestHandler rh = new RequestHandler();
                 String res = rh.sendPostRequest(konfigurasi.URL_ADD, params);
