@@ -2,11 +2,11 @@ package com.example.game_store;
 
 public class konfigurasi {
     //PENTING! JANGAN LUPA GANTI IP SESUAI DENGAN IP KOMPUTER DIMANA DATA PHP BERADA
-    public static final String URL_ADD = "https://dc4b-114-122-166-181.ngrok-free.app/gamestore_backend/tambahGame.php";
-    public static final String URL_GET_ALL = "https://dc4b-114-122-166-181.ngrok-free.app/gamestore_backend/tampilSemuaGame.php";
-    public static final String URL_GET_EMP = "https://dc4b-114-122-166-181.ngrok-free.app/gamestore_backend/tampilGame.php?id=";
-    public static final String URL_UPDATE_EMP = "https://dc4b-114-122-166-181.ngrok-free.app/gamestore_backend/updateGame.php";
-    public static final String URL_DELETE_EMP = "https://dc4b-114-122-166-181.ngrok-free.app/gamestore_backend/hapusGame.php?id=";
+    public static final String URL_ADD = "https://ddc5cc76c8ff-18103738024155447053.ngrok-free.app/gamestore_backend/tambahGame.php";
+    public static final String URL_GET_ALL = "https://ddc5cc76c8ff-18103738024155447053.ngrok-free.app/gamestore_backend/tampilSemuaGame.php";
+    public static final String URL_GET_EMP = "https://ddc5cc76c8ff-18103738024155447053.ngrok-free.app/gamestore_backend/tampilGame.php?id=";
+    public static final String URL_UPDATE_EMP = "https://ddc5cc76c8ff-18103738024155447053.ngrok-free.app/gamestore_backend/updateGame.php";
+    public static final String URL_DELETE_EMP = "https://ddc5cc76c8ff-18103738024155447053.ngrok-free.app/gamestore_backend/hapusGame.php?id=";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_ID = "id";
