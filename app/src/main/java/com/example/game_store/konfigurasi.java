@@ -2,19 +2,19 @@ package com.example.game_store;
 
 public class konfigurasi {
     //PENTING! JANGAN LUPA GANTI IP SESUAI DENGAN IP KOMPUTER DIMANA DATA PHP BERADA
-    public static final String URL_ADD = "https://a040-114-4-218-244.ngrok-free.app/Android/game/tambahGame.php";
-    public static final String URL_GET_ALL = "https://a040-114-4-218-244.ngrok-free.app/Android/game/tampilSemuaGame.php";
-    public static final String URL_GET_EMP = "https://a040-114-4-218-244.ngrok-free.app/Android/game/tampilGame.php";
-    public static final String URL_UPDATE_EMP = "https://a040-114-4-218-244.ngrok-free.app/Android/game/updateGame.php";
-    public static final String URL_DELETE_EMP = "https://a040-114-4-218-244.ngrok-free.app/Android/game/hapusGame.php";
+    public static final String URL_ADD = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/tambahGame.php";
+    public static final String URL_GET_ALL = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/tampilSemuaGame.php";
+    public static final String URL_GET_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/tampilGame.php";
+    public static final String URL_UPDATE_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/updateGame.php";
+    public static final String URL_DELETE_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/hapusGame.php";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_ID = "id";
-    public static final String KEY_EMP_NAME = "name";
+    public static final String KEY_EMP_NAME = "nama";
     public static final String KEY_EMP_BIG = "size_besar";
     public static final String KEY_EMP_UNIT = "size_unit";
     public static final String KEY_EMP_RATING = "rating";
-    public static final String KEY_EMP_PUB= "pub";
+    public static final String KEY_EMP_PUB= "publisher";
     public static final String KEY_EMP_DESK = "deskripsi";
 
     //JSON Tags
