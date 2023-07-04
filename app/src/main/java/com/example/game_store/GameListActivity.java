@@ -18,6 +18,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+@SuppressWarnings("deprecation")
 public class GameListActivity extends AppCompatActivity implements ListView.OnItemClickListener{
     private ListView listView;
 
@@ -66,6 +67,7 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
     }
 
     private void getJSON(){
+        @SuppressWarnings("deprecation")
         class GetJSON extends AsyncTask<Void,Void,String>{
 
             ProgressDialog loading;

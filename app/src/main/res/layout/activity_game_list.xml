@@ -9,20 +9,10 @@
     android:paddingBottom="16dp"
     tools:context=".GameListActivity">
 
-    <ScrollView
-        android:layout_width="376dp"
-        android:layout_height="696dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
         <ListView
             android:id="@+id/listView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:layout_constraintTop_toTopOf="parent"
             tools:layout_editor_absoluteX="16dp" />
-    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
