@@ -22,6 +22,7 @@ import org.json.JSONObject;
 import java.util.HashMap;
 
 
+@SuppressWarnings("deprecation")
 public class DetailActivity extends AppCompatActivity implements View.OnClickListener{
     private TextView editTextId;
     private EditText editTextName;
@@ -48,6 +49,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         editTextId = (TextView) findViewById(R.id.editTextId);
         editTextName = (EditText) findViewById(R.id.titleTxt);
         editTextBig = (EditText) findViewById(R.id.sizeTxt);
+        editTextUnit = (EditText) findViewById(R.id.sizeUnitTxt);
         editTextRate = (EditText) findViewById(R.id.ratingTxt);
         editTextPub = (EditText) findViewById(R.id.publisherTxt);
         editTextDesk = (EditText) findViewById(R.id.descriptionTxt);
@@ -65,6 +67,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private void getEmployee(){
+        @SuppressWarnings("deprecation")
         class GetEmployee extends AsyncTask<Void,Void,String>{
             ProgressDialog loading;
             @Override
@@ -200,7 +203,7 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
                     @Override
                     public void onClick(DialogInterface arg0, int arg1) {
                         deleteEmployee();
-                        startActivity(new Intent(DetailActivity.this,DetailActivity.class));
+                        startActivity(new Intent(DetailActivity.this,MainActivity.class));
                     }
                 });
 

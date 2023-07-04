@@ -50,7 +50,7 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
                 HashMap<String,String> employees = new HashMap<>();
                 employees.put(konfigurasi.TAG_ID, id);
                 employees.put(konfigurasi.TAG_NAME, name);
-                employees.put(konfigurasi.TAG_PUB, pub);
+                employees.put(konfigurasi.TAG_PUB, "Publisher : "+pub);
                 list.add(employees);
             }
 
@@ -60,8 +60,8 @@ public class GameListActivity extends AppCompatActivity implements ListView.OnIt
 
         ListAdapter adapter = new SimpleAdapter(
                 GameListActivity.this, list, R.layout.list_item_game,
-                new String[]{konfigurasi.TAG_ID,konfigurasi.TAG_NAME, konfigurasi.TAG_PUB},
-                new int[]{R.id.id, R.id.name, R.id.pub});
+                new String[]{konfigurasi.TAG_NAME, konfigurasi.TAG_PUB},
+                new int[]{R.id.name, R.id.pub});
 
         listView.setAdapter(adapter);
     }

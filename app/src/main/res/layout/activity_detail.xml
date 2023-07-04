@@ -102,18 +102,18 @@
                     app:layout_constraintTop_toTopOf="parent"
                     app:layout_constraintVertical_bias="0.529" />
 
-                <TextView
+                <EditText
                     android:id="@+id/sizeUnitTxt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="232dp"
-                    android:layout_marginBottom="16dp"
+                    android:layout_marginBottom="8dp"
                     android:text="mb"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.529"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toEndOf="@+id/sizeTxt" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -229,6 +229,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="32dp"
+                android:gravity="top"
                 android:text="As of 2 April 2013, Game has 328 stores in the United Kingdom. Stores traded under the Game and Gamestation brands until the latter was replaced by Game from November 2012. Stores sell games for all major video game platforms. Games are also sold under a 'preowned' label, where a customer has returned a used game for cash or credit. The company also operates a transactional website, Game.co.uk."
                 android:textColor="#000000"
                 android:textSize="16sp" />

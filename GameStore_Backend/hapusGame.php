@@ -10,10 +10,10 @@
 
  //Menghapus Nilai pada Database
  if(mysqli_query($con, $sql)){
-    echo 'Berhasil Menghapus Pegawai';
+    echo 'Berhasil Menghapus Game';
  }
  else{
-    echo 'Gagal Menghapus Pegawai';
+    echo 'Gagal Menghapus Game';
  }
 
  mysqli_close($con);
