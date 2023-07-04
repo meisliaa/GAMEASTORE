@@ -4,9 +4,9 @@ public class konfigurasi {
     //PENTING! JANGAN LUPA GANTI IP SESUAI DENGAN IP KOMPUTER DIMANA DATA PHP BERADA
     public static final String URL_ADD = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/tambahGame.php";
     public static final String URL_GET_ALL = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/tampilSemuaGame.php";
-    public static final String URL_GET_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/tampilGame.php";
+    public static final String URL_GET_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/tampilGame.php?id=";
     public static final String URL_UPDATE_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/updateGame.php";
-    public static final String URL_DELETE_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/hapusGame.php";
+    public static final String URL_DELETE_EMP = "https://5e18-114-5-104-48.ngrok-free.app/gamestore_backend/hapusGame.php?id=";
 
     //Dibawah ini merupakan Kunci yang akan digunakan untuk mengirim permintaan ke Skrip PHP
     public static final String KEY_EMP_ID = "id";
