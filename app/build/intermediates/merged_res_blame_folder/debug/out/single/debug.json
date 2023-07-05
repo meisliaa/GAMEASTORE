@@ -1,0 +1,190 @@
+[
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_image_1.jpg.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\image_1.jpg"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_activity_detail.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_activity_game_list.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_game_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_image_3.jpg.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\image_3.jpg"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_image_5.jpg.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\image_5.jpg"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_ic_search_black_24dp.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\ic_search_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_background_box2.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\background_box2.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_layout.png.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\layout.png"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_activity_game_input.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_game_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_ic_dashboard_black_24dp.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_fragment_notifications.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_image_2.jpg.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\image_2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_ic_home_black_24dp.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\ic_home_black_24dp.xml"
+    },
+    {
+        "merged": "com.example.game_store.app-merged_res-4:/layout_activity_detail.xml.flat",
+        "source": "com.example.game_store.app-main-6:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_list_item_game.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\list_item_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_image_4.jpg.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\image_4.jpg"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_background_white.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\background_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_background_radius.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\background_radius.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_background_box1.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\background_box1.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_ic_notifications_black_24dp.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\ic_notifications_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_ic_account_black_24dp.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\ic_account_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_background_box3.xml.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\background_box3.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\font_alata.ttf.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\font\\alata.ttf"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-merged_res-4:\\drawable_login.png.flat",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\drawable\\login.png"
+    }
+]
