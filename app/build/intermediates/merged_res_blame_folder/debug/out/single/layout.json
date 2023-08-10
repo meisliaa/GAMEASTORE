@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\activity_detail.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\activity_game_input.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_game_input.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\list_item_game.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\list_item_game.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\activity_game_list.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_game_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\fragment_notifications.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\fragment_notifications.xml"
+    },
+    {
+        "merged": "com.example.game_store.app-mergeDebugResources-3:/layout/activity_detail.xml",
+        "source": "com.example.game_store.app-main-6:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\activity_login.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\activity_register.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\trist_ztri59l\\.gradle\\daemon\\8.0\\com.example.game_store.app-main-6:\\layout\\activity_main.xml"
+    }
+]
